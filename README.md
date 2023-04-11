@@ -2,15 +2,18 @@
 
 ## Credit and Collaborations
 
-- Kawika Miller
+- James Ian Solima
 - Darran Holmes
-- Ethan Storm
+- Tyler Huntley
+- Dutch Foy
+- Mandela Steele-Dadzie
 
 ### Communication
 
 What hours will you be available to communicate?
 
-- 2-6pm (We'll keep in contact)
+- M-F 9am-6pm PST (We'll keep in contact)
+- Weekends, on discretion
 
 What platform will you use to communicate (ie. Slack, phone …)?
 
@@ -18,133 +21,135 @@ What platform will you use to communicate (ie. Slack, phone …)?
 
 How often will you take breaks?
 
-- 10 minutes about every hour
+- breaks as needed, Hourly
 
 What is your plan if you start to fall behind?
 
 - We'll decide to take a little extra time and plan out what needs to be done. Before or after class with a fresh mind
+Potentially reevaluate goals and features, and complete what needs to be done for a working MVP.
 
 How will you communicate after hours and on the weekend?
 
-- we will you slack to communicate or meet in remo
+- Slack, Remo
 
 What is your strategy for ensuring everyone’s voice is heard?
 
-- ask questions to anyone who is not communicating as much to make sure their voice is heard.
+- We will do a daily meet to check on progress with each member, where we address issues, code challenges and set goals for the day.
 
 How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
 
-- we have already broken the ice with each other by finding common interest and talking with each other.
+- We will keep open communication and an inclusive and non hostile environment
 
 ### Cooperative
 
 Make a list of each parson’s strengths.
 
+- James: Decent at algorithms and learning new concepts, usually flexible and available
+- Tyler: Communication, Time management, Growth mindset
+- Darran: Diligent, Patient
+- Dutch:
+- Mandela: API setup
 
 
 How can you best utilize these strengths in the execution of your project?
 
-- We will help each other through the process regardless of specific skills, weaknesses, and strengths
+- We will help each other through the process using our different strengths to cover another's possible weaknesses and learn from each other wherever possible. 
 
 In which professional competencies do you each want to develop greater strength?
 
-
+- James: Understanding documentation and being better at coding in general
+- Tyler: Craft and quality competencies
+- Darran: Problem-solving
+- Dutch: 
+- Mandela: Communication
 
 Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
 
-- navigating and driving will help us keep in sync. Though we will review our code to cement understanding. We'll make good and frequent comments
+- We will do our best to write idiomatic and meaningful code, so it is understandable by everyone on the group
 
 ## Conflict Resolution
 
 What will be your group’s process to resolve conflict, when it arises?
 
-- we will write out our conflicts and get a third party involved to give advice on how to move forward. We will also talk out our issue first before the become a problem.
+- We will write out our conflicts and get a third party involved to give advice on how to move forward. We will also talk out our issue first before the become a problem.
 
 What will your team do if one person is pulling all the weight while the other person is not contributing?
 
-- give that person driver responsibility or otherwise have them help the team
+- Give that person driver responsibility or otherwise have them help the team. We can also have them in a navigator role to help another member who is not a strong learn.
 
 What will your team do if one person is taking over the project and not letting the other member contribute?
 
-- have the person doing all the work incorporate the others
+- Have a meeting and separate the tasks so it doesn't belong to one person. 
 
 How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
 
-- Be patient and talk things out. Make sure to bring the team with you by walking through the code and answering questions.
+- Be patient and have a more confident person navigate while the person who may not be at the same skill drives.
 
 How will you raise concerns to members who are not adequately contributing?
 
-- we will have a meeting and talk to that person about how we can make sure they can contributing more.
+- We will raise these concerns in a meeting and task them appropriately.
 
 How and when will you escalate the conflict if your resolution attempts are unsuccessful?
 
-- We will get an instructor involved.
+- Get a third party involved when it becomes detrimental to the progress of the project
+
+## Work Plan
+
+- How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
+
+Through daily morning standups, we'll go over what needs to be accomplished and assign tasks based on what we feel comfortable doing and break for the day.
+
+- What project management tool will be used?
+
+Trello
+
+## Git Process
+
+- What components of your project will live on GitHub?
+
+Our code
+
+- How will you share the repository with your teammates?
+
+All members of the group will be assigned collaborator roles on the github repo
+
+- What is your Git flow?
+
+We will have a developer branch -> 
+Each person creates a new branch from developer branch -> 
+works on a feature -> pushes to developer branch -> 
+other teammate reviews and approves -> 
+Merge into developer branch -> 
+delete feature of the day branch -> 
+merge into main branch
+
+- Will you be using a PR review workflow? If so, consider:
+
+Yes
+
+  - How many people must review a PR?
+  
+  1 other teammate
+  
+  - Who merges PRs?
+  
+  Reviewer
+  
+  - How often will you merge?
+  
+  At least once a day, or when a feature is complete
+  
+  - How will you communicate that it’s time to merge?
+  
+  We will communicate through Slack and Remo
 
 ## User Stories
 
-### Casual Carl
 
-- As a casual gamer I want a game that scratches my gaming itch while keeping the overall experience low-stress so that I can enjoy something in my spare time without dedicating a lot of time to the game.
+### Feature Tasks
 
-- Feature Tasks
 
-  - User can start the game easily
-  - User doesn’t lose his character progression on exit
-  - User can easily defeat first few enemies
+### Acceptance Tasks
 
-- Acceptance Tasks
-  - Minimal menus/screens to start game
-  - Player character is constantly saved to database
-  - Enemies aren’t too challenging when starting
 
-### Retro Randy
 
-- As a retro gamer, I want to play something that reminds me of the old-school era of text-based games while injecting something new into the game, so that I can experience a sense of nostalgia while not feeling like I am just replaying the same old style of game.
-
-- Feature Tasks
-
-  - User experiences text-based elements + visual elements
-  - User can use retro themes to lend to the sense of nostalgia
-
-- Acceptance Tests
-  - Able to see history of console.logs that describe what’s happening
-  - Can choose ‘retro’ theme (black background, white / green text, pixel-y text)
-
-### Working Wendy
-
-- As someone who works long hours, I want a game that I can enjoy in short bursts of time so that I can play during my breaks and pick up where I left off whenever time allows
-
-- Feature Tasks
-
-  - User can quit whenever they want to and when they come back they are in the same position (even mid-battle)
-  - Battles / encounters are relatively short
-
-- Acceptance Tests
-  - Able to exit the app whenever you want and the player data + the encounter state will be saved to the server
-  - Keep ‘bullet sponge’ type enemies to a minimum
-
-### Dungeon Dave
-
-- As someone who enjoys Dungeons & Dragons, I want a video game that still requires some level of imagination yet also feels like a dungeon crawler so that I can experience something analogous to D&D when my group isn’t around to play.
-
-- Feature Tasks
-
-  - Minimize visual elements and with descriptive console.logs of what’s going on
-  - Use classic fantasy creatures / monsters so that the themes are familiar
-
-- Acceptance Tests
-  - Implement an extensive series of console.logs and use visual elements sparingly
-  - Monsters and creatures keep to a strict fantasy theme (goblins, ogres, necromancers, skeletons, slimes)
-
-### Learning Leslie
-
-- As someone who doesn’t play a lot of video games but wants to, I want something that’s simple to learn and easy to play so that I can start to learn the basics of gaming and eventually dip my toes into something more difficult.
-
-- Feature Tasks
-
-  - UI/UX should be straightforward and simple to understand
-  - Avoid overly complex battle mechanics
-
-- Acceptance Tests
-  - Minimize the amount of screens, buttons, etc
-  - No “Action Points”, hidden effects, bonus multipliers, etc.
