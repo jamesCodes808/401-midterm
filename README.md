@@ -47,7 +47,7 @@ Make a list of each parson’s strengths.
 - James: Decent at algorithms and learning new concepts, usually flexible and available
 - Tyler: Communication, Time management, Growth mindset
 - Darran: Diligent, Patient
-- Dutch:
+- Dutch: Communication visionary
 - Mandela: API setup
 
 
@@ -60,7 +60,7 @@ In which professional competencies do you each want to develop greater strength?
 - James: Understanding documentation and being better at coding in general
 - Tyler: Craft and quality competencies
 - Darran: Problem-solving
-- Dutch: 
+- Dutch: Inflexibility, impulsive
 - Mandela: Communication
 
 Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
